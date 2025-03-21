@@ -39,6 +39,9 @@ p {
 }
 
 @media (max-width: 800px) {
+  body{
+    overflow: hidden;
+  }
   h1 {
     font-size: 2em;
   }
@@ -50,6 +53,9 @@ p {
   }
 
 @media (max-width: 600px) {
+  body{
+    overflow: hidden;
+  }
     h1 {
       font-size: 1.5em;
     }
@@ -65,6 +71,9 @@ p {
   }
 
 @media (max-width: 400px) {
+  body{
+    overflow: hidden;
+  }
     h1 {
       font-size: 1.25em;
     }
