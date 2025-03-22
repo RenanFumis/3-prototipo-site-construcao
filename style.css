@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
-  background-image: url('image/blurred-imagem-drive-wingpg22.jpg');
+  background-image: url('image/blurred-imgem-drive-advanced-catalogue.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,18 +16,22 @@ body {
   padding: 20px;
   background: rgba(255, 255, 255, 0.43);
   border-radius: 10px;
-  max-width: 90%;
+  max-width: 80%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 1.75rem;
   color: #333;
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
+  margin-bottom: 2rem;
+  letter-spacing: .02rem;
 }
 p {
-  font-size: 1.25em;
+  font-size: 1.125rem;
   color: #444;
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
+  letter-spacing: .05rem;
+  line-height: 1.5rem;
 }
 
 .icone {
@@ -43,10 +47,10 @@ p {
     overflow: hidden;
   }
   h1 {
-    font-size: 2em;
+    font-size: 1.75rem;
   }
   p {
-    font-size: 1em;
+    font-size: 1rem;
   }
   .icone img {
     width: 30px;
@@ -57,10 +61,11 @@ p {
     overflow: hidden;
   }
     h1 {
-      font-size: 1.5em;
+      font-size: 1.5rem;
     }
     p {
       font-size: 0.75em;
+      letter-spacing: .05rem;
     }
     .icone img {
       width: 25px;
